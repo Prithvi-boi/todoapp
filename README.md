@@ -5,6 +5,9 @@ A modern, responsive to-do list web application built with vanilla JavaScript, H
 ![To Do List App](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+<img width="1116" height="598" alt="image" src="https://github.com/user-attachments/assets/643efe81-f966-4f7e-b362-4384aad95548" />
+
+
 ## 🌟 Features
 
 - ✅ **Add Tasks** - Quickly add new tasks to your list
@@ -118,12 +121,6 @@ todoapp/
 - **CSS3**: Custom styling with Flexbox and Grid
 - **JavaScript (ES6)**: Dynamic DOM manipulation
 
-### Browser Compatibility
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-
 ### Key JavaScript Features
 - Event listeners for user interactions
 - Dynamic DOM element creation
@@ -175,10 +172,6 @@ Contributions are welcome! Here's how you can help:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
