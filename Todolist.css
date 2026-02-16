@@ -1,0 +1,157 @@
+
+/* ---------------------------  Background  -------------------------------- */
+
+* {
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainbg {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, black, rgb(0, 0, 143));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#childbg {
+    height: 80vh;
+    width: 70vw;
+    background-color: rgb(25, 25, 25);
+    border: solid, 10px, rgb(1, 32, 136);
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.369);
+
+    display: grid;
+    place-items: center;
+    grid-template-rows: 100px 100px 80px 300px 10px 50px;
+}
+
+/* ---------------------------  Heaadings    --------------------------------------- */
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+/* -----------------  Task inputs and Add/submit btn    ----------------------------- */
+#inputtask {
+    height: 30px;
+    width: 30vw;
+    font-size: 30px;
+    color: black;
+    border: solid, 5px, rgb(1, 32, 136);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#Addtask {
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: solid, 5px, rgb(1, 32, 136);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* ------------------  task bar and list -------------------------------- */
+
+#task_bar {
+    overflow-y: scroll;
+    background-color: rgb(28, 28, 28);
+    height: 290px;
+    width: 1250px;
+    border-radius: 20px;
+}
+
+li {
+    background-color: rgb(35, 35, 35);
+    height: 100px;
+    width: 1100px;
+    padding-left: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+    .Mark {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        margin-right: 30px;
+        border-radius: 10px;
+    }
+
+    .Mark:hover {
+        background-color: rgb(0, 145, 255);
+    }
+
+
+.task_txt {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 790px;
+    overflow: hidden;
+}
+
+
+.deletebtn {
+    background-color: red;
+}
+
+button {
+    background-color: blue;
+    height: 50px;
+    width: 90px;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* --------------------------- scrollbar -------------------------------- */
+
+#task_bar::-webkit-scrollbar {
+    width: 10px;
+}
+
+#task_bar::-webkit-scrollbar-thumb {
+    background-color: rgb(34, 0, 255);
+    border-radius: 10px;
+}
+
+#task_bar::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 242, 255);
+}
+
+#task_bar::-webkit-scrollbar-track {
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px;
+}
+
+/* ---------------------------  Footers    --------------------------------------- */
+
+hr {
+    box-sizing: border-box;
+    width: 80%;
+    background-color: blue;
+    border: solid 2px blue;
+}
+
+#foot_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}

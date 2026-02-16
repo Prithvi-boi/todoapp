@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list Application</title>
+    <link rel="stylesheet" href="Todolist.css">
+</head>
+
+<body>
+    <div id="mainbg">
+        <div id="childbg">
+
+            <!-- ------------------------------------------------------------------------- -->
+            <h1>To Do List</h1>
+            <div>
+                <input type="text" name="task" id="inputtask" placeholder="Enter Task Here">
+                <input type="submit" id="Addtask" value="Add">
+            </div>
+            <h2>Task list</h2>
+            <!-- ------------------------------------------------------------------------- -->
+
+            <div id="task_bar">
+                <ul id="my_ul">
+                    <!-- <li>
+                        <span class="Mark"></span>
+                        <p class="task_txt">Hello World</p>
+                        <span>
+                            <button class="deletebtn">Delete</button>
+                            <button class="editbtn">Edit</button>
+                        </span>
+                    </li> -->
+                </ul>
+            </div>
+
+            <!-- ------------------------------------------------------------------------- -->
+            <hr>
+            <div id="foot_text">
+                <p>Complete: <span id="Complete_count">0</span> | Uncompleted: <span id="Uncomplete_count">0</span></p>
+            </div>
+            <!-- ------------------------------------------------------------------------- -->
+        </div>
+    </div>
+<script src="Todolist.js"></script>
+</body>
+
+</html>
