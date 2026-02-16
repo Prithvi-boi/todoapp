@@ -2,10 +2,7 @@
 
 A modern, responsive to-do list web application built with vanilla JavaScript, HTML, and CSS. Features a sleek dark theme with gradient backgrounds and smooth animations.
 
-![To Do List App](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-<img width="1116" height="598" alt="image" src="https://github.com/user-attachments/assets/643efe81-f966-4f7e-b362-4384aad95548" />
+<img width="1020" height="599" alt="image" src="https://github.com/user-attachments/assets/25356f98-ab78-42bd-9b7c-8a59a0a5c813" />
 
 
 ## 🌟 Features
